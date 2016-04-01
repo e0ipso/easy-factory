@@ -1,5 +1,5 @@
 {
-  "name": "simple-factory",
+  "name": "easy-factory",
   "version": "1.0.0",
   "description": "Simple base class for a consistent factory pattern.",
   "main": "lib/factory.js",
@@ -16,7 +16,7 @@
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e0ipso/simple-factory.git"
+    "url": "git+https://github.com/e0ipso/easy-factory.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -36,9 +36,9 @@
     "node": ">=4.2.0"
   },
   "bugs": {
-    "url": "https://github.com/e0ipso/simple-factory/issues"
+    "url": "https://github.com/e0ipso/easy-factory/issues"
   },
-  "homepage": "https://github.com/e0ipso/simple-factory#readme",
+  "homepage": "https://github.com/e0ipso/easy-factory#readme",
   "directories": {
     "test": "test"
   },

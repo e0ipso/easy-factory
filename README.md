@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/e0ipso/simple-factory.svg?branch=master)](https://travis-ci.org/e0ipso/simple-factory)
-[![Coverage Status](https://coveralls.io/repos/github/e0ipso/simple-factory/badge.svg?branch=master)](https://coveralls.io/github/e0ipso/simple-factory?branch=master)
+[![Build Status](https://travis-ci.org/e0ipso/easy-factory.svg?branch=master)](https://travis-ci.org/e0ipso/easy-factory)
+[![Coverage Status](https://coveralls.io/repos/github/e0ipso/easy-factory/badge.svg?branch=master)](https://coveralls.io/github/e0ipso/easy-factory?branch=master)
 
 This module will help you to have consistent implementations of the [abstract
 factory pattern](https://en.wikipedia.org/wiki/Abstract_factory_pattern).
@@ -13,7 +13,7 @@ This is the example in the tests.
 ```js
 'use strict';
 
-const Factory = require('simple-factory');
+const Factory = require('easy-factory');
 
 class FruitFactory extends Factory {
 
