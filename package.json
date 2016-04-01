@@ -1,6 +1,6 @@
 {
   "name": "easy-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple base class for a consistent factory pattern.",
   "main": "lib/factory.js",
   "scripts": {
