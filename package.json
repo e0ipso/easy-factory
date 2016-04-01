@@ -1,0 +1,37 @@
+{
+  "name": "simple-factory",
+  "version": "1.0.0",
+  "description": "Simple base class for a consistent factory pattern.",
+  "main": "lib/factory.js",
+  "scripts": {
+    "test": "istanbul cover --print both nodeunit ./test",
+    "lint": "eslint --quiet . --",
+    "coverage": "istanbul check-coverage --statements 95 --lines 95 --branches 95 --functions 95",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "author": "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>",
+  "contributors": [
+    {
+      "name": "Mateu Aguiló Bosch",
+      "email": "mateu.aguilo.bosch@gmail.com"
+    }
+  ],
+  "repository": "e0ipso/simple-factory",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "eslint": "^1.10.3",
+    "ghooks": "^1.0.1",
+    "istanbul": "^0.4.2",
+    "nodeunit": "^0.9.1"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  }
+}
