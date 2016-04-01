@@ -16,6 +16,7 @@
       "email": "mateu.aguilo.bosch@gmail.com"
     }
   ],
+  "license": "GPL-2.0",
   "repository": "e0ipso/simple-factory",
   "dependencies": {},
   "devDependencies": {
