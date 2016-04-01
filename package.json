@@ -11,13 +11,13 @@
   },
   "author": "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>",
   "contributors": [
-    {
-      "name": "Mateu Aguiló Bosch",
-      "email": "mateu.aguilo.bosch@gmail.com"
-    }
+    "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>"
   ],
   "license": "GPL-2.0",
-  "repository": "e0ipso/simple-factory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e0ipso/simple-factory.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^2.11.9",
@@ -34,5 +34,17 @@
   },
   "engines": {
     "node": ">=4.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/e0ipso/simple-factory/issues"
+  },
+  "homepage": "https://github.com/e0ipso/simple-factory#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "factory"
+  ]
 }
