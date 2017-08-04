@@ -1,3 +1,5 @@
+'use strict';
+
 const FruitFactory = require('./implementations/fruitFactory');
 const Factory = require('../lib/factory');
 

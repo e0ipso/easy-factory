@@ -1,3 +1,5 @@
+'use strict';
+
 const Factory = require('../../lib/factory');
 
 /* eslint-disable global-require */
