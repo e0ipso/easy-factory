@@ -12,7 +12,6 @@
     "arrow-body-style": [2, "as-needed"],
     "arrow-parens": [2, "as-needed"],
     "block-scoped-var": 2,
-    "block-scoped-var": 2,
     "brace-style": [2, "stroustrup"],
     "camelcase": 2,
     "comma-dangle": 2,
