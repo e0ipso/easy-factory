@@ -1,6 +1,6 @@
 {
   "name": "easy-factory",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "Simple base class for a consistent factory pattern.",
   "main": "lib/factory.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
     "precommit": "npm run lint",
     "prepush": "npm test && npm run coverage",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>",
   "contributors": [
@@ -19,7 +20,7 @@
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e0ipso/easy-factory.git"
+    "url": "https://github.com/e0ipso/easy-factory.git"
   },
   "dependencies": {},
   "devDependencies": {
