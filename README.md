@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/e0ipso/easy-factory/badge.svg?branch=master)](https://coveralls.io/github/e0ipso/easy-factory?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/e0ipso/easy-factory/badge.svg)](https://snyk.io/test/github/e0ipso/easy-factory)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
+[![Greenkeeper badge](https://badges.greenkeeper.io/e0ipso/easy-factory.svg)](https://greenkeeper.io/)
 
 [![NPM](https://nodei.co/npm/easy-factory.png)](https://nodei.co/npm/easy-factory/)
 
@@ -12,6 +13,7 @@ Extend the Factory base class in your own factory and implement the getClass
 static method with your business logic.
 
 ## Example
+
 This is the example in the tests.
 
 ```js
