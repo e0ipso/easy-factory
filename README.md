@@ -21,8 +21,15 @@ This is the example in the tests.
 
 const Factory = require('easy-factory');
 
-class FruitFactory extends Factory {
+/* eslint-disable global-require */
 
+/**
+ * @classdesc
+ *   A factory class to get a fruit.
+ *
+ * @class FruitFactory
+ */
+class FruitFactory extends Factory {
   /**
    * Decide which fruit to instantiate based on the size and sugar.
    *
@@ -45,7 +52,6 @@ class FruitFactory extends Factory {
     }
     return context.sugar >= 5 ? require('./grape') : require('./almond');
   }
-
 }
 
 module.exports = FruitFactory;
