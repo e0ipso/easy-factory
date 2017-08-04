@@ -1,11 +1,11 @@
-'use strict';
-
-class Pumpkin {
-
+module.exports = class {
+  /**
+   * Get the name.
+   *
+   * @return {string}
+   *   The name.
+   */
   name() {
     return 'Pumpkin';
   }
-
-}
-
-module.exports = Pumpkin;
+};

@@ -1,11 +1,11 @@
-'use strict';
-
-class Almond {
-
+module.exports = class {
+  /**
+   * Get the name.
+   *
+   * @return {string}
+   *   The name.
+   */
   name() {
     return 'Almond';
   }
-
-}
-
-module.exports = Almond;
+};

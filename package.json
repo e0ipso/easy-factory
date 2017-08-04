@@ -7,7 +7,10 @@
     "test": "istanbul cover --print both nodeunit ./test",
     "lint": "eslint --quiet . --",
     "coverage": "istanbul check-coverage --statements 95 --lines 95 --branches 95 --functions 95",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "precommit": "npm run lint",
+    "prepush": "npm test && npm run coverage",
+    "commitmsg": "validate-commit-msg"
   },
   "author": "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>",
   "contributors": [
@@ -20,17 +23,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "coveralls": "^2.11.9",
-    "eslint": "^1.10.3",
-    "ghooks": "^1.0.1",
-    "istanbul": "^0.4.2",
-    "nodeunit": "^0.9.1"
+    "coveralls": "^2.13.1",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "husky": "^0.14.3",
+    "istanbul": "^0.4.5",
+    "nodeunit": "^0.11.1",
+    "semantic-release": "^6.3.6",
+    "semantic-release-conventional-commits": "^1.0.2",
+    "validate-commit-msg": "^2.13.1"
   },
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm test"
-    }
+  "release": {
+    "analyzeCommits": "semantic-release-conventional-commits"
   },
   "engines": {
     "node": ">=4.2.0"

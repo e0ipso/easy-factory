@@ -1,11 +1,11 @@
-'use strict';
-
-class Mango {
-
+module.exports = class {
+  /**
+   * Get the name.
+   *
+   * @return {string}
+   *   The name.
+   */
   name() {
     return 'Mango';
   }
-
-}
-
-module.exports = Mango;
+};
