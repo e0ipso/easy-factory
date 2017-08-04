@@ -8,6 +8,8 @@ Extend the Factory base class in your own factory and implement the getClass
 static method with your business logic.
 
 ## Example
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/e0ipso/easy-factory.svg)](https://greenkeeper.io/)
 This is the example in the tests.
 
 ```js
