@@ -14,9 +14,6 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>",
-  "contributors": [
-    "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com>"
-  ],
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
