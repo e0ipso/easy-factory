@@ -38,9 +38,6 @@
   "release": {
     "analyzeCommits": "semantic-release-conventional-commits"
   },
-  "engines": {
-    "node": ">=6.11.2"
-  },
   "bugs": {
     "url": "https://github.com/e0ipso/easy-factory/issues"
   },
