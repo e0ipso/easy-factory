@@ -22,7 +22,7 @@
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "eslint": "^4.3.0",
+    "eslint": "^6.0.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.7.0",
     "husky": "^1.0.0",
